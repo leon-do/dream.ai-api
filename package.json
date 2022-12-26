@@ -1,0 +1,15 @@
+{
+  "name": "dream.ai-api",
+  "version": "1.0.0",
+  "description": "fetch(\"https://paint.api.wombo.ai/api/v2/tasks\", {   \"headers\": {     \"accept\": \"*/*\",     \"accept-language\": \"en-US,en;q=0.9,pt;q=0.8,ar;q=0.7\",     \"authorization\": \"bearer eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg3NTNiYmFiM2U4YzBmZjdjN2ZiNzg0ZWM5MmY5ODk3YjVjZDkwN2QiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9wYWludC1wcm9kIiwiYXVkIjoicGFpbnQtcHJvZCIsImF1dGhfdGltZSI6MTY3MTk4Mzg4OSwidXNlcl9pZCI6ImdTT3VKYlE1WnpNM08zTDZLdjBDeDRDUkJzRjIiLCJzdWIiOiJnU091SmJRNVp6TTNPM0w2S3YwQ3g0Q1JCc0YyIiwiaWF0IjoxNjcxOTgzODg5LCJleHAiOjE2NzE5ODc0ODksImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnt9LCJzaWduX2luX3Byb3ZpZGVyIjoiYW5vbnltb3VzIn19.lmjfcVtQLqARU5YKMq6ep6UL8o-6k6l7Rx1iVQNePwK0D1G2LtcIfqHpp7XAZ0JWOC3d4GET6ljsBPtqW6hNqVsnGMYspI_vDQRsKmFSg89YqolETNGkc27vtGMsvzoQye5LkJe1IR6tIGffQofQpT2CwAmv__pDXORMjFlLPbXS8Scd_hkKbi3fxKnaUgIofS47O4SR0nFZERm5g44WEkS-xhWWSnAJSLiPyi3LDPtsLzz3zFTO3Xw2nGBrIfq8hV1yHuGTiSBkdHXQ0j6rjJUiy1P6ucY7wXKdlThc4i5V84c8X5y2M0_Q3txS_XZ9wusKpBoX3ixYgVYHO6dtOg\",     \"content-type\": \"text/plain;charset=UTF-8\",     \"sec-ch-ua\": \"\\\"Not?A_Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"108\\\", \\\"Google Chrome\\\";v=\\\"108\\\"\",     \"sec-ch-ua-mobile\": \"?0\",     \"sec-ch-ua-platform\": \"\\\"macOS\\\"\",     \"sec-fetch-dest\": \"empty\",     \"sec-fetch-mode\": \"cors\",     \"sec-fetch-site\": \"cross-site\",     \"x-app-version\": \"WEB-1.90.1\"   },   \"referrer\": \"https://dream.ai/\",   \"referrerPolicy\": \"strict-origin-when-cross-origin\",   \"body\": \"{\\\"is_premium\\\":false,\\\"input_spec\\\":{\\\"prompt\\\":\\\"Foremost Murderer\\\",\\\"style\\\":14,\\\"display_freq\\\":10}}\",   \"method\": \"POST\",   \"mode\": \"cors\",   \"credentials\": \"include\" });",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
