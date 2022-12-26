@@ -1,6 +1,6 @@
 # Misc
 .DS_Store
-images/
+images/*.png
 
 # Logs
 logs
