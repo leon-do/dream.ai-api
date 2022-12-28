@@ -15,6 +15,8 @@ module.exports = function properName() {
   // random nuber between 0-2 for gender
   var tp = Math.floor(Math.random() * 3);
 
+  let rnd1, rnd2, rnd3, rnd4, rnd5, rnd6;
+
   for (i = 0; i < 10; i++) {
     const nTp = (Math.random() * 3) | 0;
     if (tp === 1) {
